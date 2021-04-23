@@ -1,10 +1,8 @@
 if GetLocale() ~= "deDE" then return end
-local _, addon = ...
-local L = addon.L
 local _, core = ...
+local L = core.L
 
--- General:
-L["addon loaded. use |cffffd700/kp|r to access options."] = "Addon geladen. Nutze |cffffd700/kp|r um Einstellungen zu ändern.
+L["addon loaded. use |cffffd700/kp|r to access options."] = "Addon geladen. Nutze |cffffd700/kp|r um Einstellungen zu ändern."
 L["Enable"] = "Aktivieren"
 L["Type |cffffd700/%s|r in chat for more."] = "Type |cffffd700/%s|r in chat for more."
 L["module enabled."] = "Modul aktiviert."
