@@ -36,15 +36,15 @@ L["|cff00ff00ON|r"] = "|cff00ff00AN|r"
 L["|cffff0000OFF|r"] = "|cffff0000AUS|r"
 L["|cffffd700Example|r: %s"] = "|cffffd700Beispiel|r: %s"
 L["Current list of commands:"] = "Aktuelle Liste der Kommandos:"
-L["Character Specific"] = "charakterspezifisch"
+L["Character Specific"] = "Charakterspezifisch"
 L["Enable this if you want settings to be stored per character rather than per account."] = "Aktivieren Sie diese Option, um Einstellungen für einzelne Charaktere (statt für den Account) festzulegen."
 -- AddOn Manager:
 L["Reload UI"] = "UI neu laden"
 L["Enable all"] = "Alle aktivieren"
 L["Disable all"] = "Alle deaktivieren"
+L["|cffff4400Dependencies: |r"] = "|cffff4400Abhängigkeiten: |r"
+L["|cffffffff%d|r AddOns: |cffffffff%d|r |cff00ff00Enabled|r, |cffffffff%d|r |cffff0000Disabled|r"] = "|cffffffff%d|r AddOns: |cffffffff%d|r |cff00ff00Aktiviert|r, |cffffffff%d|r |cffff0000Deaktiviert|r"
 
-L["|cffff4400Dependencies: |r"] = "|cffff4400Dependencies: |r"
-L["|cffffffff%d|r AddOns: |cffffffff%d|r |cff00ff00Enabled|r, |cffffffff%d|r |cffff0000Disabled|r"] = "|cffffffff%d|r AddOns: |cffffffff%d|r |cff00ff00Activés|r, |cffffffff%d|r |cffff0000Désactivés|r"
 -- Binder
 L["Allows you to save your current keybinds as a profile that you can load whenever you want."] = "Vous permet d'enregistrer vos raccourcis actuels en tant que profil que vous pouvez charger quand vous le souhaitez."
 L["Create Profile"] = "Créer un profil"
