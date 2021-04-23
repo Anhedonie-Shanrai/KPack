@@ -3,41 +3,23 @@ local _, addon = ...
 local L = addon.L
 local _, core = ...
 
-
-local setmetatable = setmetatable
-local tostring, format = tostring, string.format
-local rawset, rawget = rawset, rawget
-local L = setmetatable({}, {
-    __newindex = function(self, key, value)
-        rawset(self, key, value == true and key or value)
-    end,
-    __index = function(self, key)
-        return key
-    end
-})
-function L:F(line, ...)
-    line = L[line]
-    return format(line, ...)
-end
-core.L = L
-core.locale = GetLocale()
 -- General:
-L["addon loaded. use |cffffd700/kp|r to access options."] = true
-L["Enable"] = true
+L["Addon geladen. Nutze |cffffd700/kp|r um Einstellungen zu ändern."] = true
+L["Aktivieren"] = true
 L["Type |cffffd700/%s|r in chat for more."] = true
-L["module enabled."] = true
-L["module disabled."] = true
-L["Some settings require UI to be reloaded."] = true
-L["enable the module."] = true
-L["disable the module."] = true
-L["show module status."] = true
-L["Could not find module \"%s\""] = true
-L["Module \"%s\" already exists"] = true
-L["Please reload ui."] = true
-L["Module Status"] = true
-L["module status: %s"] = true
-L["enable module"] = true
-L["disable module"] = true
+L["Modul aktiviert."] = true
+L["Modul deaktiviert."] = true
+L["Einige Einstellungen benötigen ein erneutes Laden des UI."] = true
+L["Das Modul aktivieren."] = true
+L["Das Modul deaktivieren."] = true
+L["Zeige Modulstatus."] = true
+L["Konnte Modul \"%s\" nicht finden."] = true
+L["Modul \"%s\" existiert bereits."] = true
+L["Bitte UI neu laden."] = true
+L["Modulstatus"] = true
+L["Modulstatus: %s"] = true
+L["Modul aktivieren"] = true
+L["Modul deaktivieren"] = true
 L["toggle module status"] = true
 L["Tick the modules you want to disable."] = true
 L["Acceptable commands for: |caaf49141%s|r"] = true
