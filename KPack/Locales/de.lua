@@ -78,22 +78,27 @@ L["Count"] = "Zählen"
 L["Rank"] = "Rang"
 L["Allows you to setup different profiles for your action bars."] = "Erlaubt dir, verschiedene Profile für deine ActionBars anzulegen."
 L["Unable to restore macros, you already have 36 global and 18 per character ones created."] = "Wiederherstellung der Makros gescheitert - du hast bereits 36 globale Makros und 18 Makros je Charakter gespeichert."
+
 L["Invalid spells passed, remember you must put quotes around both of them."] = ???????????????????????????????????????????????????
+
 L["Auto macro restauration is now disabled!"] = "Automatische Makrowiederherstellung aktiviert!"
 L["Auto macro restauration is now enabled!"] = "Automatische Makrowiederherstellung deaktiviert!"
+
 L["Checking item count is now disabled!"] = ???????????????????????????????????????????????????
 L["Checking item count is now enabled!"] = ???????????????????????????????????????????????????
 
-L["Auto restoring highest spell rank is now disabled!"] = "La restauration des sorts de haut rang est activée!"
-L["Auto restoring highest spell rank is now enabled!"] = "La restauration des sorts de haut rang est désactivée!"
-L['Unable to restore spell "%s" to slot #%d, it does not appear to have been learned yet.'] = "Impossible de restaurer le sort \"%s\" dans l'emplacement #%d, il ne semble pas encore avoir été appris."
-L['Unable to restore companion "%s" to slot #%d, it does not appear to exist yet.'] = "Impossible de restaurer le compagnon \"%s\" dans l'emplacement #%d, il ne semble pas encore exister."
-L['Unable to restore item "%s" to slot #%d, cannot be found in inventory.'] = "Impossible de restaurer l'item \"%s\" dans l'emplacement #%d, introuvable dans l'inventaire."
-L["Unable to restore macro id #%d to slot #%d, it appears to have been deleted."] = "Impossible de restaurer la macro #%d dans l'emplacement #%d, elle semble avoir été supprimée."
-L["Saved profile %s!"] = "Profil %s enregistré!"
-L['No profile with the name "%s" exists.'] = "Le profil nommé \"%s\" n'existe pas."
-L["Restored profile %s!"] = "Profil %s restauré!"
-L["Restored profile %s, failed to restore %d buttons type /abs errors for more information."] = "Profil %s restauré, échec de restaurer %d boutons, tapez </abr errors> pour plus d'information."
+L["Auto restoring highest spell rank is now disabled!"] = "Automatische Wiederherstellung des höchsten Zauberrangs ist jetzt deaktiviert!"
+L["Auto restoring highest spell rank is now enabled!"] = "Automatische Wiederherstellung des höchsten Zauberrangs ist jetzt aktiviert!"
+L['Unable to restore spell "%s" to slot #%d, it does not appear to have been learned yet.'] = "Konnte Zauber \"%s\" nicht im Slot #%d wiederherstellen, vermutlich wurde der Zauber noch nicht erlernt."
+L['Unable to restore companion "%s" to slot #%d, it does not appear to exist yet.'] = "Konnte Begleiter \"%s\" im Slot #%d nicht wiederherstellen, vermutlich existiert er noch nicht."
+L['Unable to restore item "%s" to slot #%d, cannot be found in inventory.'] = "Konnte Item \"%s\" auf dem Slot #%d nicht wiederherstellen, nicht im Inventar gefunden."
+L["Unable to restore macro id #%d to slot #%d, it appears to have been deleted."] = "Konnte Makro #%d im Slot #%d nicht wiederherstellen, scheinbar wurde es gelöscht."
+L["Saved profile %s!"] = "Profil %s gespeichert!"
+L['No profile with the name "%s" exists.'] = "Es existiert kein Profil mit dem Namen \"%s\"."
+L["Restored profile %s!"] = "Profil %s wurde wiederhergestellt!"
+
+L["Restored profile %s, failed to restore %d buttons type /abs errors for more information."] = "Profil %s wiederhergestellt, ?????????????????????? échec de restaurer %d boutons, tapez </abr errors> pour plus d'information."
+
 L['Cannot restore profile "%s", you can only restore profiles saved to your class.'] = "Impossible de restaurer le profil \"%s\", vous ne pouvez restaurer que les profils enregistrés pour votre classe."
 L['You cannot rename "%s" to "%s" they are the same profile names.'] = "Impossible de renommer le profil \"%s\" en \"%s\", ce sont les mêmes noms de profil."
 L['No name specified to rename "%s" to.'] = "Aucun nom spécifié pour renommer le profil \"%s\"."
